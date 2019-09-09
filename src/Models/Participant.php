@@ -28,7 +28,7 @@ class Participant extends Eloquent
      *
      * @var array
      */
-    protected $dates = ['deleted_at', 'last_read'];
+    protected $dates = ['last_read'];
 
     /**
      * {@inheritDoc}
